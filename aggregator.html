@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="aggregator.css">
+</head>
+<body>
+    <header>
+        <h1>News Aggregator</h1>
+        <input type="text" id="searchInput" placeholder="Search for news">
+        <select  id="catagory">
+            <option value="general">General</option>
+            <option value="technology">Technolgy</option>
+            <option value="business">Business</option>
+            <option value="sports">Sports</option>
+            <option value="entertainment">Entertainment</option>
+        </select>
+        <button id="toggleMode">Change Mode</button>
+    </header>
+    <script src="newsFetcher.js"></script>
+    <script src="eventHandler.js"></script>
+</body>
+</html>
